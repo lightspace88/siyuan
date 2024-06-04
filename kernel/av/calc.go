@@ -17,6 +17,7 @@
 package av
 
 type Calculable interface {
+	
 	CalcCols()
 }
 

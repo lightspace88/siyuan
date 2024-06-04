@@ -5,6 +5,8 @@ on:
     tags:
       - '*-dev*'
   workflow_dispatch:
+        tags:
+      - '*-dev*'
 
 # ref https://docs.github.com/zh/actions/learn-github-actions/variables
 env:
